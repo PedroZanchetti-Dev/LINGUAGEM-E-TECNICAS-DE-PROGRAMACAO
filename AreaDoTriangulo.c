@@ -3,7 +3,7 @@
 /* Codigo para calcular area do triangulo*/
 
 int main() {
-	float base, altura, x;
+	float base, altura, area;
 	
 	printf ("Digite o valor da Base: ");
 	 scanf("%f", &base);
@@ -13,8 +13,8 @@ int main() {
 	 scanf("%f", &altura);
 	 
 	 
-	x = (base * altura) /2;
+	area = (base * altura) /2;
 	
-	printf("A area do triangulo e: %.2f\n", x );
+	printf("A area do triangulo e: %.2f\n", area );
 	return 0;
 }
