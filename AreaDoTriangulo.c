@@ -15,6 +15,6 @@ int main() {
 	 
 	x = (base * altura) /2;
 	
-	printf("A area do triangulo e: %f\n", x );
+	printf("A area do triangulo e: %.2f\n", x );
 	return 0;
 }
