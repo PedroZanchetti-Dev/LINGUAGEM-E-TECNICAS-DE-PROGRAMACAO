@@ -32,3 +32,5 @@ int main(int argc, char *argv[]) {
 	
 	
 	printf("O numero %d em binario: %d%d%d%d%d%d%d\n", n, resultado%2 , bit2, bit4, bit8, bit16, bit32, bit64);
+	return 0;
+    }
