@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
 	
 	total = salario + (vendas * 0.15 );
 	
-	printf("O TOTAL A SER RECEBIDO NO FIM DO MES E DE: \n%.2f", total);
+	printf("O TOTAL A SER RECEBIDO NO FIM DO MES E DE: R$ \n%.2f", total);
 	
 	return 0;
 }
