@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(int argc, char *argv[]) {
+    float salario, vendas, comissao, total;
+    
+    printf("DIGITE SEU SALARIO: \n");
+    scanf("%f", &salario);
+    
+    printf("DIGITE SEU VALOR TOTAL DE VENDAS: \n");
+    scanf("%f", &vendas);
+	
+	total = salario + (vendas * 0.15 );
+	
+	printf("O TOTAL A SER RECEBIDO NO FIM DO MES E DE: \n%.2f", total);
+	
+	return 0;
+}
